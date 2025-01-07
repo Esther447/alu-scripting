@@ -5,4 +5,5 @@ if ARGV.empty?
   exit
 end
 
-puts ARGV[0].scan(/[A_Z]+/).join
+puts ARGV[0].scan(/[A-Z]/).join
+
