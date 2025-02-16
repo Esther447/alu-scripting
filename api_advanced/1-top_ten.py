@@ -1,21 +1,11 @@
 #!/usr/bin/python3
-"""
-Queries the Reddit API to print the top 10 hot posts of a subreddit.
-"""
+"""DOCS"""
 
 import requests
 
 
 def top_ten(subreddit):
-    """
-    Prints the titles of the top 10 hot posts from a given subreddit.
-
-    Args:
-        subreddit (str): The name of the subreddit.
-
-    Returns:
-        None: Prints top 10 post titles or None if subreddit is invalid.
-    """
+    """DOCS"""
     url = f"https://www.reddit.com/r/{subreddit}/hot.json"
     headers = {"User-Agent": "Mozilla/5.0"}
 
