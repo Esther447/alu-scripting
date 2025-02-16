@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Fetches the top 10 hot posts of a given subreddit."""
+"""DOCS"""
 import requests
 
 
 def top_ten(subreddit):
-    """Prints the titles of the top 10 hot posts for a given subreddit."""
+    """DOCS"""
     url = f"https://www.reddit.com/r/{subreddit}/hot.json"
     headers = {'User-Agent': 'Mozilla/5.0'}
 
