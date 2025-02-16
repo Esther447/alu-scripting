@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""
+Reddit API Query Module
+
+This module contains a function to query the Reddit API and print the tittles of the first
+"""
+
 import requests
 
 def top_ten(subreddit):
