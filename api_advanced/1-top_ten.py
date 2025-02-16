@@ -1,15 +1,11 @@
 #!/usr/bin/python3
-"""
-Reddit API Query Module
-
-This module contains a function to query the Reddit API and print the tittles of the first
-"""
-
+"""DOCS"""
 import requests
 
+
 def top_ten(subreddit):
-    """Queries the Reddit API and prints the titles of the first 10 hot posts."""
-    url = f"https://www.reddit.com/r/{subreddit}/hot.json"
+    """Docs"""
+    rl = f"https://www.reddit.com/r/{subreddit}/hot.json"
     headers = {'User-Agent': 'Mozilla/5.0'}
     params = {'limit': 10}
     
